@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <input type="text" name="Search" placeholder="Search">
+        <button onclick="logOff(this)">Login</button>
+    </div>
+    <div class="container">
+        <div class="colleft">
+            <div class="def1">
+                <div id="pronunciation">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <h3>Plural: <em>ninja</em></h3>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div id="definition">
+                    <h2>A practicioner skilled in the 
+                        <a href="#">Japanese</a> 
+                        art of 
+                        <a href="#">ninjutsu</a>
+                    </h2>
+                </div>
+            </div>
+            <div class="def2">
+                <div id="pronunciation">
+                    <h1>ninja</h1>
+                    <h2>noun</h2>
+                    <h3>Plural: <em>ninja</em></h3>
+                    <button>37 likes</button>
+                </div>
+                <div id="definition">
+                    <h2>A  
+                        <a href="#">Programmer</a> 
+                        who breaks down problems with
+                        <a href="#">zen</a>-like focus
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="colright">
+            <div id="dojo">
+                <h2>Dojonary is</h2> 
+                <h2>defined by <strong>YOU</strong></h2>
+                <button onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
